@@ -6,7 +6,7 @@ A small, dependency-free Zig client for the Hostinger public API. It exposes:
 - typed route builders for the API surface used by Cloudio;
 - typed parsers in `hostinger.models`.
 
-The package targets Zig 0.16 and is pre-1.0. Its current scope is deliberately
+The package targets Zig 0.17.0 and is pre-1.0. Its current scope is deliberately
 limited to proven Cloudio callers; additions should follow real use cases.
 
 ## Install
@@ -52,8 +52,9 @@ Callers must check `response.status` before interpreting response bodies.
 zig build test
 ```
 
-The canonical source lives under `packages/hostinger` in the Cloudio
-monorepo. This repository is a one-way, history-preserving mirror; changes are
-made in the monorepo and published to `master`.
+This repository is the canonical source for `hostinger-zig`. Make library
+changes here and run `zig build test`. Cloudio consumes an exact commit as a
+Git submodule under `vendor/hostinger`; update that pin in Cloudio after the
+library change is committed here.
 
 Licensed under MIT. See `LICENSE`.
