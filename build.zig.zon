@@ -1,7 +1,7 @@
 .{
     .name = .hostinger,
     .version = "0.1.0",
-    .minimum_zig_version = "0.17.0",
+    .minimum_zig_version = "0.18.0-dev.253+16d31ceed",
     .paths = .{""},
     .fingerprint = 0xe188c73f156f2ef6,
 }

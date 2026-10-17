@@ -28,7 +28,7 @@ The library covers these areas:
 
 ## Get started
 
-Requires **Zig 0.17.0**. The package is pre-1.0 and has no other Zig dependencies. Linux is the validated target. The metrics helper uses a Linux clock; the full suite currently does not compile on macOS.
+Requires **Zig 0.18.0-dev.253+16d31ceed**. The package is pre-1.0 and has no other Zig dependencies. Linux is the validated target. The metrics helper uses a Linux clock; the full suite currently does not compile on macOS.
 
 ### 1. Add the dependency
 
